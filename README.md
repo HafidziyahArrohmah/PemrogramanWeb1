@@ -1,5 +1,5 @@
 # PemrogramanWeb1
-HTML
+<b>HTML</b>
 
   HTML (Hyper Text Markup Language) adalah bahasa yang digunakan untuk membuat sebuah halaman web. Tag HTML pertama kali disebutkan di internet oleh Tim Berners-Lee pada akhir tahun 1991. HTML terdiri dari serangkaian elemen. HTML dimulai dengan deklarasi tipe dokumen:  <!DOCTYPE html>. Deklarasi ini menunjukkan versi HTML yang digunakan yaitu HTML5.
 Setiap elemen HTML harus selalu ditutup dengan menambahkan */* pada deklarasinya, seperti </html>. Elemen HTML adalah semua bagian dari tag awal hingga tag akhir.
@@ -208,3 +208,63 @@ Tampilan penggabungan tabel:
  
 ![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/52772c6b-b74e-4bc0-94b1-f792cff143e0)
 
+
+<b>CSS</b>
+
+  CSS (Cascading Style Sheet) adalah bahasa pemrograman yang biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markuo, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+	CSS dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Karena dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. CSS ini digunakan di dalam program bahasa HTML.
+Sintaks CSS
+p {property:value; property:value;}
+
+penjelasan:
+•	p adalah bagian yang akan diformat menggunakan CSS
+•	color adalah property dan red adalah valus
+•	text-align adalah property dan center adalah value
+Tampilan sederhana
+ 
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/704b9653-ca5b-4534-b2fa-29bff7d5fa73)
+
+Cara memasukkan CSS
+1.	CSS eksternal
+Mengubah tampilan seluruh situs web menggunakan file css eksternal, dengan memanggil file eksternal tersebut.
+CSS eksternal didefinisikan dengan elemen link, di dalam tag head
+2.	CSS internal
+Pengaturan CSS didefinisikan di dalam tag style yang terdapat pada head.
+3.	CSS inline
+Menambahkan atribut style ke elemen yang akan diberi gaya.
+
+Background CSS
+•	background-image : untuk menambahkan latar belakang gambar
+•	background-size : untuk mengatur ukuran latar belakang
+o	contain : mengatur latar belakang sebesar mungkin (namun lebar dan tingginya sesuai dengan area konten)
+o	cover : mengatur agar konten tertutup seluruhnya oleh gambar latar belakang
+Tampilan background
+
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/419247d5-aeb3-4561-b728-4737712ad931)
+
+CSS Border
+CSS border memungkinkan kita untuk menentukan gaya, lebar, dan warna border menggunakan properti border-style. 
+Atribut CSS border:
+•	border-style : menentukan jenis border yang akan digunakan
+•	border-color : menentukan warna border
+•	border-width : menentukan lebar dari keempat bagian sisi border
+Tampilan CSS border
+
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/5fd62c42-051e-44e4-aedc-ed20f99f13b8)
+
+Box Model CSS
+Bagian-bagian box model:
+•	content : tempat teks dan gambar muncul
+•	padding : menghapus area sekitar konten
+•	border : batas yang mengelilingi padding dan konten
+•	margin : menghapus area diluar batas (border)
+Tampilan box model
+ 
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/defd16ce-357e-478d-bc36-9c5c589ed279)
+
+Modifikasi Tabel CSS
+Hover table digunakan untuk menyorot atau memberi warna berbeda ketika kursor mengarah ke konten. Properti yang digunakan adalah [(bagian yang akan disorot:hover{}]
+Untuk membuat tabel bergaris zebra, digunakan properti nth-child() dan menambahkan backgroun-color ke semua baris genap atau ganjil.
+Tampilan modifikasi
+
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/85823248-5f3a-4602-ab17-2cf1bf5edd39)
