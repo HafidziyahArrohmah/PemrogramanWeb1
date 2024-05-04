@@ -268,3 +268,50 @@ Untuk membuat tabel bergaris zebra, digunakan properti nth-child() dan menambahk
 Tampilan modifikasi
 
 ![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/85823248-5f3a-4602-ab17-2cf1bf5edd39)
+
+
+<b>JavaScript</b>
+
+	JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web yang interaktif. Sejarah javascript dimulai pada tahun 1955, diciptakan oleh Brendan Eich di Netscape Communication. Dulunya javascript bernama livescript da hanya digunakan untuk keperluan internal dengan web browser perusahaan Netscape Navigator, kemudian namanya diubah menjadi javascript agar bisa menjadi “teman” bagi bahasa pemrograman java milik mitra mereka, sun microsystem. Javascript terus berkembang bersama browser web baru seperti mozilla firefox dan google chrome sejak saat itu. Bahkan saat ini sedang dikembangkan mesin javascript modern pertama, yaitu V8.
+Metode JavaScript:
+1.	getElementById()
+Metode ini digunakan untuk menemukan elemen HTML (dengan id=”nama id”), dan mengubah konten elemen HTML menjadi kontem yang lain. Metode ini juga bisa digunakan untuk mengubah nilai src atribut sumber dari sebuah tag img.
+
+Tampilan getElementById
+
+ ![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/9911167e-c6b6-4dab-8b02-9a629b399f3c)
+	
+Metode ini juga bisa digunakan untuk melakukan operasi aritmatika dengan menambahkan variabel-variabel angka.
+	Tampilan Operasi Aritmatika	 
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/14292fcd-f9f2-4ea0-bee1-fdc2eecff32a)
+
+2.	function()
+Dalam HTML, kode javascript disisipkan di antara tag script dan /script. Function adalah blok kode javascript yang dapat dieksekusi ketika dipanggil. Function ini bisa ditempatkan di dua tag, yaitu tag head dan tag body pada HTML.
+
+Fungsi javascript didefinisikan dengan function kata kunci, diikuti nama, diikuti tanda kurung (). Tanda kurung dapat menyertakan nama parameter yang dipisahkan dengan koma: (parameter1, parameter2)
+
+Seperti CSS, kode atau fungsi javascript juga bisa ditempatkan di file eksternal, sehingga untuk mengaksesnya perlu dilakuakan pemanggilan file eksternal tersebut.
+
+Tampilan JavaScript
+
+ ![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/9a819acd-d8e4-454e-855e-2e74f09dde54)
+
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/d5953ba5-ec81-4fb3-9768-97794ca2102f)
+
+3.	Event
+Event adalah sesuatu yang dilakuakan oleh browser, atau sesuatu yang dilakukan oleh pengguna.
+
+Tampilan event menggunakan event onclick
+
+
+Sebelum
+ 
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/bbd75a34-524c-4009-892f-da0ad3c4a6df)
+
+Sesudah
+
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/39367be0-ce07-4882-b451-63080bfe3697)
+
+PERCOBAAN
+
+![image](https://github.com/HafidziyahArrohmah/PemrogramanWeb1/assets/168707404/7127bcf1-45d2-4623-9805-56935cafd348)
